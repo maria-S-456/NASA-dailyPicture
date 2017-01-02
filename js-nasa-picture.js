@@ -9,7 +9,7 @@ function searchResults(data) {
   var heading = data.title;
   var descp =data.explanation;
   var date= data.date;
-  var elem = '<div id="picture-div"><img src="'+ imageLink +'" /></a></div><div id="text-div"><h2> '+ heading +' </h2><p> '+ descp +' </p></div>';
+  var elem = '<h2> '+ heading +' </h2><div id="picture-div"><img class="img-responsive" src="'+ imageLink +'" /></a></div><div id="text-div"><p> '+ descp +' </p></div>';
   results.append(elem);
 }
 
