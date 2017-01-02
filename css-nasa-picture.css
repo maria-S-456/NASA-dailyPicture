@@ -1,0 +1,82 @@
+#panel{		/* top panel containing title and input form */
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	border: 1px solid black;
+	padding-left: 50px;
+	padding-top: 40px;
+	background-color: #3362A3;
+	padding-right: 50px;
+	display: inline-block;
+
+}
+body{
+	margin: 0;
+	background-image: url("second-starry-background.jpg");
+}
+h1{
+	font-size: 40px;
+	font-family: "Garamond";
+	float: left;
+	color: white;
+}
+#header-div{
+	height: 80px;
+	width: 600px;
+	float: left;
+	margin-top: -20px;
+}
+
+
+#input-div{			/* contains input text box and button and label */
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	margin-right: 207px;
+	height: 60px;
+	width: 470px;
+	
+}
+.input-box{
+	height: 30px;
+	width: 300px;
+	font-size: 20px;
+	float: left;
+}
+#label-div{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#submit-button{
+	height: 30px;
+	float: right;
+}
+
+.content-div{
+	
+	margin-top: 40px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+img{
+	max-width: 825px;
+	max-height: 600px;
+}
+#picture-div{
+	height: 100%;
+	width: 73%;	
+	float: left;
+}
+#text-div{
+	height: 100%;
+	width: 25%;
+	float: left;
+	color: white;
+	margin-left: 20px;
+	padding-top: -15px;
+}
+#text-background-div{
+	background-color: brown;
+	opacity: 0.5;
+}
